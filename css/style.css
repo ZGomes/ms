@@ -33,6 +33,10 @@ html, body {
     animation: appear .5s ease-in-out forwards;
 }
 
+.pre {
+    white-space: pre-wrap;
+}
+
 .title {
     color: #39297C;
     font-size: 2rem;
@@ -123,7 +127,7 @@ html, body {
 }
 
 .form.contact {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
 }
 
 .form .form__group + .form__group, .form.contact .form__group .form__input + .form__input {
@@ -195,10 +199,6 @@ html, body {
     transform: scale(1.5);
     position: relative;
     top: 4px;
-}
-
-.pre {
-    white-space: pre-wrap;
 }
 
 @media (min-width: 481px) {
